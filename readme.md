@@ -1,16 +1,10 @@
-# Three.js Journey
+# Three.js Linked Points
 
-## Setup
-Download [Node.js](https://nodejs.org/en/download/).
-Run this followed commands:
-
-``` bash
-# Install dependencies (only the first time)
-npm install
-
-# Run the local server at localhost:8080
-npm run dev
-
-# Build for production in the dist/ directory
-npm run build
-```
+## About
+The project with simple points and linked lines based on Three.js.
+Feauters:
+* Some variables can me modified by dat.GUI
+* Animated points
+* Connecting points with lines, limited by rules
+* Lines opacity depends on the distance between the points
+* The ability to add a point on click
